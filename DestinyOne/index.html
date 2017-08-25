@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jogo Destiny</title>
+	<meta name="description" content="Destiny">
+	<meta name="keywords" content="Destiny, Bungie, Activision, Raid, Crisol">
+	<meta name="robots" content="index, follow">
+	<meta name="author" content="Kamillo de Souza">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">  <!--GOOGLE FONTS-->
+	<link rel="icon" href="img/logo.jpg">
+</head>
+<body>
+
+<!--MENU-->
+	<header class="cabecalho">
+		<a href="index.html"><h1 class="logo">Destiny 1</h1></a>
+		<button class="btn-menu"><i class="material-icons">menu</i></button>
+		<nav class="menu">
+			<a class="btn-close"><i class="fa fa-times"></i></a>
+			<ul>
+				<li><a href="file:///home/user/%C3%81rea%20de%20Trabalho/nodeprop-master/index.html">Home</a></li>
+				<li><a href="#">Classes</a></li>
+				<li><a href="#">Raids</a></li>
+				<li><a href="file:///home/user/%C3%81rea%20de%20Trabalho/nodeprop-master/crisol.html">Crisol</a></li>
+				<li><a href="file:///home/user/%C3%81rea%20de%20Trabalho/nodeprop-master/expansoes.html">Expansões</a></li>
+				<li><a href="file:///home/user/%C3%81rea%20de%20Trabalho/nodeprop-master/contato.html">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+
+<!--BANNER-->
+	<div class="banner">
+		<img src="img/destiny_game.jpg">
+		<div class="buttons">
+			<button class="btn-cadastrar">Cadastrar<i class="fa fa-arrow-circle-right"></i></button>
+			<button class="btn-sobre">Sobre<i class="fa fa-question-circle"></i></button>
+		</div>
+	</div>
+
+<!--SERVIÇOS-->
+	<main class="servicos">
+		<article class="servico">
+			<a href="#"><img src="img/destiny-classes1.jpg" alt="Classes"></a>
+			<div class="inner">
+				<a href="#">Classes</a>
+				<h4>Titãs, Arcanos ou Caçadores</h4>
+				<p>Classes são subcategorias dentro de um grupo de espécies que servem para diferenciar personagens e NPCs por aparência, habilidades, traços e atributos. Em Destiny, tanto os Guardiões quanto alguns inimigos são diferenciados por classe.</p>
+			</div>
+		</article>			
+		<article class="servico">
+			<a href="#"><img src="img/raids.jpg" alt="Modo Cooperativo-Raids"></a>
+			<div class="inner">
+				<a href="#">Modo Cooperativo Raids</a>
+				<h4>De Atheon até Aksis</h4>
+				<p>Raid é um modo de jogo do Destiny. Raids são eventos cooperativos de 6 jogadores que são de grande desafio e requerem comunicação entre os jogadores para ter sucesso.Eles envolvem missões específicas para grupos de fireteams.Não são fornecidos waypoints ou objetivos explícitos.</p>
+			</div>
+		</article>
+		<article class="servico">
+			<a href="#"><img src="img/crisol.jpg" alt="Modo Competitivo-Crisol"></a>
+			<div class="inner">
+				<a href="#">Modo Competitivo Crisol</a>
+				<h4>Escolha suas batalhas</h4>
+				<p>O Crisol é um modo de jogo competitivo que coloca jogadores uns contra os outros em um combate aberto (PvP). É possível jogar várias modalidades do Crisol.</p>
+			</div>
+		</article>
+		<article class="servico">
+			<a href="#"><img src="img/expansions.jpg" alt="Expansões de Destiny"></a>
+			<div class="inner">
+				<a href="#">Expansões de Destiny</a>
+				<h4>Torne-se uma Lenda</h4>
+				<p>Destiny - The Collection é uma ótima maneira para os Guardiões embarcarem em viagens que possam ter perdido, bem como um ponto de partida perfeito para novos jogadores que desejam se juntar à comunidade Destiny. Atualize seu personagem para criar um herói poderoso tão único como você.</p>
+			</div>
+		</article>
+	
+	</main>
+
+<!--NEWSLETTER-->
+	<section class="newsletter">
+		<h2>Inscreva-se Agora!</h2>
+		<h3>Receba Novidades, Dicas e muito mais</h3>
+		<form>
+			<input type="email" name="email" placeholder="Seu E-mail">
+			<button>Cadastrar</button>
+		</form>
+	</section>
+
+<!--FOOTER-->
+	<footer class="rodape">
+		<div class="social-icons">
+			<a href="https://www.facebook.com/DestinyTheGame/"><i class="fa fa-facebook"></i></a>
+			<a href="https://twitter.com/destinythegame"><i class="fa fa-twitter"></i></a>
+			<a href="https://plus.google.com/+destinythegame"><i class="fa fa-google"></i></a>
+			<a href="https://www.instagram.com/destinythegame/"><i class="fa fa-instagram"></i></a>
+			<a href="https://www.youtube.com/user/destinygame"><i class="fa fa-youtube"></i></a>
+		</div>
+		<p class="copyright">Copyright © Kamillo de Souza 2017. Todos os Direitos Reservados</p>
+	</footer>
+
+<!--JQUERY-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+	$(".btn-menu").click(function(){
+		$(".menu").show();
+	});
+	$(".btn-close").click(function(){
+		$(".menu").hide();
+	});
+</script>
+</body>
+</html>

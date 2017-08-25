@@ -1,0 +1,588 @@
+/*====RESET====*/
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	border: none;
+	outline: none;
+	font-weight: 300;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+
+body {
+	background-color: #000;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+/*CABECALHO*/
+.cabecalho {
+	width: 100%;
+	float: left;
+	padding-left: 3%;
+    padding-right: 3%;
+}
+
+.logo {
+	width: 56px;
+	height: 56px;
+	float: left;
+	background: url(../img/d1.jpg) center center/56px no-repeat;
+	font-size: 0;
+}
+
+.btn-menu {
+	width: 56px;
+	height: 56px;
+	float: right;
+	text-align: center;
+	color: #000;
+	border-radius: 56px;
+	cursor: pointer;
+	background: linear-gradient(to right,#fff,#0098d3);
+}
+
+/*MENU*/
+.menu {
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: rgba(0,0,0,0.9);
+	top: 0;
+	left: 0;
+}
+
+.btn-close {
+	font-size: 1.5em;
+	color: #fff;
+	float: right;
+	cursor: pointer;
+	margin: 2% 3% 0 0;
+}
+
+.menu ul {
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.menu li {
+	padding: 1.5%;
+}
+
+.menu li a {
+	font-size: 2em;
+	color: #fff;
+	padding: 1.5%, 3%;
+}
+
+.menu li a:hover {
+	border: 1px solid #0098d3;
+}
+
+/*BANNER*/
+.banner {
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 0 3% 4%;
+}
+
+.title {
+	width: 100%;
+}
+
+.title h2 {
+	font-size: 2.5em;
+	color: #fff;
+	font-weight: 700;
+}
+
+.title h3 {
+	font-size: 1.5em;
+	color: #fff;
+}
+
+.buttons {
+	width: 100%;
+	margin-top: 2%;
+}
+
+.buttons i {
+	float: right;
+}
+
+.btn-cadastrar {
+	width: 100%;
+	font-size: 1.5em;
+	text-align: left;
+	cursor: pointer;
+	padding: 5%;
+	border-radius: 10px;
+	background-color: #fff;
+	color: #0098d3;
+}
+
+.btn-sobre {
+	width: 100%;
+	font-size: 1.5em;
+	text-align: left;
+	cursor: pointer;
+	padding: 5%;
+	border-radius: 10px;
+	background-color: #0098d3;
+	color: #fff;
+	margin-top: 2%;
+}
+
+/*MEDIA*/
+.media1 {
+	text-align: center;
+	padding: 3%;
+}
+
+.media2 {
+	text-align: center;
+	padding: 3%;
+}
+
+.image {
+	background-image: url("../img/dt2.jpg");
+	background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+	height: 900px;
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 0 3% 4%;
+}
+
+.crisol {
+	background-image: url("../img/Crucible.jpg");
+	background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+	height: 900px;
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 0 3% 4%;
+}
+
+.texto {
+	color: #000;
+	text-align: left;
+	font-weight: 700;
+	font-size: 40px;
+	border: 10px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 7.5px;
+	text-transform: uppercase;
+	padding-top: 200px;
+}
+
+.new {
+	color: #000;
+	background-color: #fff;
+	float: left;
+	margin-right: 150px;
+    margin-left: 150px;
+	margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 150px;
+    padding-left: 150px;
+	font-size: 20px;
+	text-align: justify;
+}
+
+.new h1{
+	font-size: 40px;
+	color: #0098d3;
+	font-weight: bold;
+}
+
+.new h2{
+	font-size: 35px;
+	color: #0098d3;
+}
+
+.new h3{
+	font-size: 30px;
+	color: #0098d3;
+}
+
+
+/*FORMULÁRIO*/
+.formulario {
+	background-color: rgba(0, 152, 211, 0.4);
+	padding: 10px;
+	border-radius: 2px;
+	line-height: 1.75;
+	margin-top: 60px;
+	margin-left: 75vh;
+}
+
+.centro {
+	top: 50%;
+	left:50%;
+    margin-top:60px;
+    margin-left:60px;
+    margin-right: 60px;
+    color: rgb(255, 255, 255)
+}
+
+.noscale {
+	background-image: url("../img/DDT-noscale.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+	height: 1080px;
+	width: 100%;
+	float: left;
+	text-align: left;
+	border: auto;
+}
+
+fieldset {
+	width: 400px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #0098d3;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #66d6ff;
+    font-weight: bold;
+    font-size: medium;
+}
+
+/*SERVIÇOS*/
+.servicos {
+	width: 100%;
+	float: left;
+	padding: 3% 4%;
+}
+
+.servico {
+	width: 100%;
+	background-color: #fff;
+	text-align: justify;
+	border-radius: 7px;
+	margin-bottom: 3%;
+}
+
+.servico img {
+	border-radius: 7px 7px 0 0;
+	padding: 5px;
+	/*margin-left: 50%;*/
+}
+
+.inner {
+	padding: 7%;
+	height: 300px;
+}
+
+.inner a {
+	font-size: 1.5em;
+	color: #130400;
+	font-weight: 700;
+}
+
+.inner h4 {
+	font-size: 1.2em;
+	color: #130400;
+	margin-top: 2%;
+}
+
+.inner p {
+	margin-top: 6%;
+	color: #130400;
+	line-height: 1.5em;
+}
+
+/*NEWSLETTER*/
+.newsletter {
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 3% 4%;
+	background-color: #0098d3;
+}
+
+.newsletter h2 {
+	font-size: 1.5em;
+	color: #fff;
+	font-weight: 700;
+}
+
+.newsletter h3 {
+	color: #fff;
+}
+
+.newsletter form {
+	margin-top: 2%;
+}
+
+.newsletter input {
+	width: 100%;
+	background-color: #000;
+	color: #fff;
+	border: 1px solid rgba(255,255,255,0.3);
+	padding: 5%;
+	border-radius: 5px;
+}
+
+.newsletter button {
+	width: 100%;
+	background-color: #fff;
+	color: #130400;
+	padding: 5%;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 2%;
+}
+
+/*FOOTER*/
+.rodape {
+	width: 100%;
+	float: left;
+	padding: 3% 4%;
+	text-align: center;
+	background-color: #000;
+}
+
+.social-icons a {
+	font-size: 1.5em;
+	color: rgba(255,255,255,0.7);
+	margin-right: 3%;
+}
+
+.social-icons a:hover {
+	color: #0098d3;
+}
+
+.social-icons a:last-child{
+	margin-right: 0;
+}
+
+.copyright {
+	margin-top: 2%;
+	color: rgba(255,255,255,0.7);
+}
+
+/*===MOBILE FIRST===*/
+
+/*SMARTPHONES*/
+@media screen and (min-width: 480px){
+.logo {
+	width: 214px;
+	background: url(../img/Destiny-Backgrounds-1.jpg) center center/214px no-repeat;
+}
+
+.btn-cadastrar {
+	font-size: 2em;
+}
+
+.btn-sobre {
+	font-size: 2em;
+}
+
+/*SMALL DEVICES - TABLETS*/
+@media screen and (min-width: 768px){
+.servico {
+	width: 48%;
+	float: left;
+	margin-right: 2%;
+}
+
+.servico:nth-child(2){
+	margin-right: 0;
+}
+
+.newsletter h2 {
+	font-size: 2em;
+}
+
+.newsletter h3 {
+	font-size: 1.5em;
+}
+
+.newsletter input {
+	width: 70%;
+	padding: 2%;
+	float: left;
+	margin-right: 1%;
+}
+
+.newsletter button {
+	width: 29%;
+	padding: 2%;
+	float: right;
+	margin-top: 0;
+}
+/*MEDIUM DEVICES - TABLETs e DESKTOPs*/
+@media screen and (min-width: 960px){
+.title {
+	width: 70%;ui
+	float: left;
+	text-align: left;
+}
+
+.title h2 {
+	font-size: 3em;
+}
+
+.title h3 {
+	font-size: 2em;
+}
+.btn-menu {
+	display: none;
+}
+
+.btn-close {
+	display: none;
+}
+
+.btn-cadastrar {
+	display: none;
+}
+
+.btn-sobre {
+	display: none;
+}
+
+.menu {
+	width: auto;
+	height: 56px;
+	line-height: 56px;
+	float: right;
+	background-color: #000;
+	display: block !important;
+	position: static;
+}
+
+.menu li {
+	padding: 0;
+	float: left;
+}
+
+.menu li a {
+	color: #fff;
+	font-size: 1em;
+	padding: 15px;
+}
+
+.menu li a:hover {
+	border: none;
+	color: #0098d3;
+}
+
+.servico {
+	width: 32%;
+	text-align: left;
+}
+
+.servico:nth-child(2){
+	margin-right: 2%;
+}
+
+.servico:nth-child(3){
+	margin-right: 0%;
+}
+
+.inner {
+	padding: 7%;
+	height: 350px;
+}
+
+.inner p {
+	text-align: justify;
+}
+
+.newsletter input {
+	width: 60%;
+	float: none;
+}
+
+.newsletter button {
+	width: 20%;
+	float: none;
+}
+
+/*LARGE DEVICES - WIDESCREENs*/
+@media screen and (min-width: 1280px){
+.btn-menu {
+	display: none;
+}
+
+.btn-close {
+	display: none;
+}
+
+.btn-cadastrar {
+	display: none;
+}
+
+.btn-sobre {
+	display: none;
+}
+
+.menu {
+	width: auto;
+	height: 56px;
+	line-height: 56px;
+	float: right;
+	background-color: #000;
+	display: block !important;
+	position: static;
+}
+
+.menu li {
+	padding: 0;
+	float: left;
+}
+
+.menu li a {
+	color: #fff;
+	font-size: 1em;
+	padding: 15px;
+}
+
+.menu li a:hover {
+	border: none;
+	color: #0098d3;
+}
+}

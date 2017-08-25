@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jogo Destiny</title>
+	<meta name="description" content="Destiny">
+	<meta name="keywords" content="Destiny, Bungie, Activision, Raid, Crisol">
+	<meta name="robots" content="index, follow">
+	<meta name="author" content="Kamillo de Souza">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">  <!--GOOGLE FONTS-->
+	<link rel="icon" href="img/logo.jpg">
+</head>
+<body>
+
+<!--MENU-->
+	<header class="cabecalho">
+		<a href="index.html"><h1 class="logo">Destiny 1</h1></a>
+		<button class="btn-menu"><i class="material-icons">menu</i></button>
+		<nav class="menu">
+			<a class="btn-close"><i class="fa fa-times"></i></a>
+			<ul>
+				<li><a href="file:///home/user/%C3%81rea%20de%20Trabalho/nodeprop-master/index.html">Home</a></li>
+				<li><a href="#">Classes</a></li>
+				<li><a href="#">Raids</a></li>
+				<li><a href="file:///home/user/%C3%81rea%20de%20Trabalho/nodeprop-master/crisol.html">Crisol</a></li>
+				<li><a href="file:///home/user/%C3%81rea%20de%20Trabalho/nodeprop-master/expansoes.html">Expansões</a></li>
+				<li><a href="file:///home/user/%C3%81rea%20de%20Trabalho/nodeprop-master/contato.html">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+
+<!--FORMULÁRIO-->
+	<div class="noscale">
+		<form>
+			<fieldset class="formulario">
+				<div class="centro">
+  					Nome:<br>
+  					<input type="text" name="Nome" placeholder="Seu nome..."><br>
+  			
+					Gametag:<br>
+  					<input type="text" name="Gametag" placeholder="Sua Gametag"><br>
+  			
+  					<select name="Console">
+    					<option value="padrão">Escolha seu Console</option>
+    					<option value="Playstation4">Playstation4</option>
+    					<option value="XboxOne">XboxOne</option>
+    				</select><br>
+
+  					Classes Usadas:<br>
+  					<input type="checkbox" name="Classe 1" value="Titã">Titã<br>
+  					<input type="checkbox" name="Classe 2" value="Caçador"> Caçador<br>
+  					<input type="checkbox" name="Classe 3" value="Arcano"> Arcano<br>  
+
+  					Sexo:<br>
+    	    		<input type="radio" name="gender" value="male" checked> Masculino<br>
+  					<input type="radio" name="gender" value="female"> Feminino<br>
+  					<input type="radio" name="gender" value="other"> Outro<br>
+  			
+  					Data de Nascimento:<br>
+  					<input type="text" placeholder="DD/MM/AAAA"><br>
+
+  					E-mail:<br>
+  					<input type="text" name="E-mail" placeholder="id@servidor.com"><br>
+    	    
+    	    		Mensagem:<br>
+        			<textarea id="Mensagem" rows="10" cols="30"></textarea><br>
+        	
+        			<input type="submit" value="ENVIAR">
+       			</div>
+       		</fieldset>
+		</form>
+	</div>
+
+<!--NEWSLETTER-->
+	<section class="newsletter">
+		<h2>Inscreva-se Agora!</h2>
+		<h3>Receba Novidades, Dicas e muito mais</h3>
+		<form>
+			<input type="email" name="email" placeholder="Seu E-mail">
+			<button>Cadastrar</button>
+		</form>
+	</section>
+	
+<!--FOOTER-->
+	<footer class="rodape">
+		<div class="social-icons">
+			<a href="https://www.facebook.com/DestinyTheGame/"><i class="fa fa-facebook"></i></a>
+			<a href="https://twitter.com/destinythegame"><i class="fa fa-twitter"></i></a>
+			<a href="https://plus.google.com/+destinythegame"><i class="fa fa-google"></i></a>
+			<a href="https://www.instagram.com/destinythegame/"><i class="fa fa-instagram"></i></a>
+			<a href="https://www.youtube.com/user/destinygame"><i class="fa fa-youtube"></i></a>
+		</div>
+		<p class="copyright">Copyright © Kamillo de Souza 2017. Todos os Direitos Reservados</p>
+	</footer>
+
+<!--JQUERY-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+	$(".btn-menu").click(function(){
+		$(".menu").show();
+	});
+	$(".btn-close").click(function(){
+		$(".menu").hide();
+	});
+</script>
+</body>
+</html>
